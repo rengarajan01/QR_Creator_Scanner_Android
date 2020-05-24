@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Quick Response</string>
+    <string name="create">Create</string>
+    <string name="scan">Scan</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="create_and_save_qr">Create and save QR</string>
+    <string name="help">HELP</string>
+    <string name="title_activity_add">add</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="todo">TODO</string>
+    <string name="scan_again">Scan Again</string>
+    <string name="scan_again1">Scan Again</string>
+    <string name="scan_again2">Scan Again</string>
+    <string name="title_activity_help">help</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-9025755371161858/5011038312</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="scan_again3">Scan Again !</string>
+    <string name="get_rewards">Get Rewards</string>
+    <string name="content">The Created QR Code is saved in the Quick Response folder in the root directory ( or in the storage ) the created QR Code can be used for any purpose and its totally free to use!</string>
+    <string name="title_activity_admob">admob</string>
+    <string name="please">Please Wait till the button gets activated !!</string>
+    <string name="show_ad">Show Ad</string>
+    <string name="your_r">Your Rewards will be announced later</string>
+    <string name="hello">Hello</string>
+    <string name="darkmode">Dark Mode</string>
+    <string name="save_qr">Save QR</string>
+    <string name="save_the_created_qr_code_in_storage">Save the created QR code in storage</string>
+    <string name="enables_dark_mode_throughout_the_application">Enables dark mode throughout the application</string>
+    <string name="change_directory">Change Directory</string>
+    <string name="help_developer">Help Developer</string>
+    <string name="scanned_texts">Scanned Texts</string>
+    <string name="tip_recently_scanned_text_will_be_at_the_end">Tip: Recently Scanned text will be at the end</string>
+    <string name="app_developed_and_maintained_by">App developed and maintained by</string>
+    <string name="unlimited_nibble">Unlimited Nibble</string>
+    <string name="perviosly_scanned">Perviosly Scanned !</string>
+    <string name="if_you_wish_to_donate_developer_with_money_you_can_do_so">If you wish to Donate Developer with money you can do so</string>
+    <string name="choose_the_destination_to_save_the_qr_image">Choose The Destination to save the QR Image</string>
+</resources>

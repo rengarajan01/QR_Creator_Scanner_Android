@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="View Scanned Code"
+        android:id="@+id/scandcode"/>
+<!--    <item android:title="Setting"-->
+<!--        android:id="@+id/settings"/>-->
+    <item android:title="Exit"
+        android:id="@+id/exit"/>
+</menu>

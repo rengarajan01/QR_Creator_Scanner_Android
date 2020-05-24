@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".ScanQR"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#DB0C090A"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/scanagain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btnback"
+            android:padding="15sp"
+            android:text="@string/scan_again3"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:paddingBottom="25dp"/>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+        <TextView
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/perviosly_scanned"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listtview"
+            android:padding="10dp"
+            android:background="@drawable/imgback"/>
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="1dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9025755371161858/9749830223" />
+
+
+
+</RelativeLayout>
