@@ -25,7 +25,7 @@ public class Splashscreen extends AppCompatActivity {
                 startActivity(in);
                 CustomIntent.customType(Splashscreen.this,"fadein-to-fadeout");
             }
-        },500);
+        },1000);
     }
 
 
